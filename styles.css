@@ -1,0 +1,202 @@
+html, body {
+    background-color: rgb(107, 7, 107);
+}
+.containter-fluid {
+    height: 100%;
+}
+
+.row {
+    width: 100%;
+}
+  /* 1st column details */
+
+  .section1 {
+    background-color: rgb(107, 7, 107);
+    color: white;
+    min-width: 300px;
+    max-width: 300px;
+    display:flex;
+    flex-direction:column;
+    height: 100vh;
+    float: left;
+}
+
+.photo {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+    margin-right: 25px;
+}
+
+.username {
+    font-size: 36px;
+}
+
+.button-confirm { 
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+#compose {
+    background-color: white;
+    font-size: 20px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.category {
+    margin-top: 40px;
+}
+
+.tab {
+    margin-top: 25px;
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    color: white;
+}
+
+.tab:hover {
+    color: gold;
+}
+/* 2nd column details */
+
+.section2 {
+    background-color: gold;
+    color:black;
+    min-width: 500px;
+    max-width: 500px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    float: left;
+}
+
+.searchbar {
+    display:flex;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#search-engine {
+    max-height: 100%;
+    width: 400px;
+}
+
+#searchbutton {
+    background-color: transparent;
+    color: black;
+    border:none;
+    background-color: white;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 0px;
+}
+
+.email {
+    background-color: purple;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    width:90%;
+    height: 50%;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    transition-duration: 0.2s;
+}
+
+.email:hover {
+    background-color: black;
+}
+
+.email-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.email-header {
+    font-size: 24px;
+}
+
+.email-timestamp {
+    color: white;
+}
+
+.email-content {
+    white-space:nowrap;
+    color: white;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+/* 3rd column details */
+
+.section3 {
+    background-color: rgb(107, 7, 107);
+    color: white;
+    min-width: 800px;
+    max-width: 800px;
+    flex-direction: column;
+}
+
+.send-receive{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    height:80%;
+    width:100%;
+}
+
+.email-address {
+    color: white;
+    font-size: 24px;
+}
+
+.email-details{
+    display:flex;
+    justify-content: space-between;
+}
+
+.email-title{
+    color:white;
+    font-size:40px;     
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    border:none;
+    background-color:transparent;
+    fill: black;
+    margin-top: 20px;
+    
+}
+
+.icon:hover {
+    fill: gold;
+}
+
+.email-fullcontent {
+    font-size: 25px;
+    padding-bottom:200px;
+}
+
+#replybox {
+    min-height: 500px;
+    width: 900px;
+    padding-left:10px;
+    padding-bottom:10px;
+}
+
+#reply {
+    color: black;
+    width:20%;
+    border-radius: 8px;
+    height: 40px;
+}
